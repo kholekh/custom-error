@@ -1,0 +1,19 @@
+{
+  "name": "custom-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -w --noEmit",
+    "build": "tsc",
+    "start": "tsc && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.126",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
